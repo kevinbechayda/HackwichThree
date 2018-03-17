@@ -44,24 +44,75 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPR-Of-WXJ">
-                                <rect key="frame" x="120" y="274" width="80" height="21"/>
+                                <rect key="frame" x="36" y="259" width="120" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFi-h4-l4n">
+                                <rect key="frame" x="164" y="259" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeu-L0-9ml">
+                                <rect key="frame" x="36" y="288" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tns-pH-Eop">
+                                <rect key="frame" x="164" y="288" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-3q-wjD">
+                                <rect key="frame" x="16" y="90" width="140" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hlE-51-Msa">
+                                <rect key="frame" x="164" y="90" width="140" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zr1-29-AFv">
+                                <rect key="frame" x="36" y="317" width="248" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bxM-wJ-xAJ">
+                                <rect key="frame" x="40" y="387" width="240" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oB3-n7-FGw"/>
                     </view>
                     <navigationItem key="navigationItem" id="gnh-Po-vL0"/>
                     <connections>
+                        <outlet property="classesTextView" destination="bxM-wJ-xAJ" id="f6Q-5M-Uf6"/>
+                        <outlet property="fifthLabel" destination="zr1-29-AFv" id="jGz-0K-aRL"/>
                         <outlet property="firstLabel" destination="aPR-Of-WXJ" id="fra-6q-prm"/>
+                        <outlet property="fourthLabel" destination="tns-pH-Eop" id="Fne-hl-axM"/>
+                        <outlet property="logo" destination="hlE-51-Msa" id="acw-dX-qNj"/>
+                        <outlet property="profilePic" destination="AWf-3q-wjD" id="hTG-k4-A33"/>
+                        <outlet property="secondLabel" destination="gFi-h4-l4n" id="wKc-a2-Ghf"/>
+                        <outlet property="thirdLabel" destination="qeu-L0-9ml" id="Kwu-fE-7p2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwL-dX-FeR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="624.79999999999995" y="-470.01499250374815"/>
+            <point key="canvasLocation" x="624.375" y="-470.07042253521126"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FaX-au-lok">
@@ -82,11 +133,11 @@
             </objects>
             <point key="canvasLocation" x="-1033" y="-137"/>
         </scene>
-        <!--About-->
+        <!--About Me-->
         <scene sceneID="bdS-ZN-gVi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ckU-57-MfB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" image="about" id="IG5-fi-9yL"/>
+                    <tabBarItem key="tabBarItem" title="About Me" image="businessman" id="IG5-fi-9yL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oUM-jd-arI">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -121,7 +172,7 @@
         <scene sceneID="B3Y-Hv-HnW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bf4-nR-mrg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="about" id="Dav-qD-cpS"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Dav-qD-cpS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hge-dB-Om5">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -140,7 +191,7 @@
         <scene sceneID="OPO-Jf-qBb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wxW-Vt-ntE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="about" id="EfF-6l-Ccw"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="EfF-6l-Ccw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p0T-yx-BDx">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -157,6 +208,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="about" width="30" height="30"/>
+        <image name="businessman" width="30" height="30"/>
     </resources>
 </document>
