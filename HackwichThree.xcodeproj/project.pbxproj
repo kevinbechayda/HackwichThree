@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7193C9F2205DD34300B2B86C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7193C9F1205DD34300B2B86C /* Images.xcassets */; };
+		7193C9F6205DFB3300B2B86C /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */; };
 		71D141592028EAAA00431810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D141582028EAAA00431810 /* AppDelegate.swift */; };
 		71D1415B2028EAAA00431810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1415A2028EAAA00431810 /* ViewController.swift */; };
 		71D1415E2028EAAA00431810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D1415C2028EAAA00431810 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		7193C9F1205DD34300B2B86C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		71D141552028EAAA00431810 /* HackwichThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D141582028EAAA00431810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D1415A2028EAAA00431810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		71D141572028EAAA00431810 /* HackwichThree */ = {
 			isa = PBXGroup;
 			children = (
+				7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */,
 				7193C9F1205DD34300B2B86C /* Images.xcassets */,
 				71D1415A2028EAAA00431810 /* ViewController.swift */,
 				71D141882028F31100431810 /* ViewControllerTwo.swift */,
@@ -269,6 +272,7 @@
 				71D1415B2028EAAA00431810 /* ViewController.swift in Sources */,
 				71D141592028EAAA00431810 /* AppDelegate.swift in Sources */,
 				71D141892028F31100431810 /* ViewControllerTwo.swift in Sources */,
+				7193C9F6205DFB3300B2B86C /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
