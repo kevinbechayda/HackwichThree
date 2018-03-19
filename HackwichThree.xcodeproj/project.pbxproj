@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7193C9F2205DD34300B2B86C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7193C9F1205DD34300B2B86C /* Images.xcassets */; };
-		7193C9F6205DFB3300B2B86C /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */; };
+		7193CA582060634000B2B86C /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193CA572060634000B2B86C /* ViewControllerThree.swift */; };
+		7193CA5C206067B000B2B86C /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193CA5B206067B000B2B86C /* ViewControllerTwo.swift */; };
 		71D141592028EAAA00431810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D141582028EAAA00431810 /* AppDelegate.swift */; };
 		71D1415B2028EAAA00431810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1415A2028EAAA00431810 /* ViewController.swift */; };
 		71D1415E2028EAAA00431810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D1415C2028EAAA00431810 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		71D141632028EAAA00431810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D141612028EAAA00431810 /* LaunchScreen.storyboard */; };
 		71D1416E2028EAAB00431810 /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1416D2028EAAB00431810 /* HackwichThreeTests.swift */; };
 		71D141792028EAAB00431810 /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D141782028EAAB00431810 /* HackwichThreeUITests.swift */; };
-		71D141892028F31100431810 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D141882028F31100431810 /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		7193C9F1205DD34300B2B86C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		7193CA572060634000B2B86C /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		7193CA5B206067B000B2B86C /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		71D141552028EAAA00431810 /* HackwichThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D141582028EAAA00431810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D1415A2028EAAA00431810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		71D141742028EAAB00431810 /* HackwichThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D141782028EAAB00431810 /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		71D1417A2028EAAB00431810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71D141882028F31100431810 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +103,10 @@
 		71D141572028EAAA00431810 /* HackwichThree */ = {
 			isa = PBXGroup;
 			children = (
-				7193C9F5205DFB3300B2B86C /* ViewControllerThree.swift */,
+				7193CA5B206067B000B2B86C /* ViewControllerTwo.swift */,
+				7193CA572060634000B2B86C /* ViewControllerThree.swift */,
 				7193C9F1205DD34300B2B86C /* Images.xcassets */,
 				71D1415A2028EAAA00431810 /* ViewController.swift */,
-				71D141882028F31100431810 /* ViewControllerTwo.swift */,
 				71D141582028EAAA00431810 /* AppDelegate.swift */,
 				71D1415C2028EAAA00431810 /* Main.storyboard */,
 				71D1415F2028EAAA00431810 /* Assets.xcassets */,
@@ -271,8 +271,8 @@
 			files = (
 				71D1415B2028EAAA00431810 /* ViewController.swift in Sources */,
 				71D141592028EAAA00431810 /* AppDelegate.swift in Sources */,
-				71D141892028F31100431810 /* ViewControllerTwo.swift in Sources */,
-				7193C9F6205DFB3300B2B86C /* ViewControllerThree.swift in Sources */,
+				7193CA582060634000B2B86C /* ViewControllerThree.swift in Sources */,
+				7193CA5C206067B000B2B86C /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

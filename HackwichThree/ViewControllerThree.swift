@@ -2,20 +2,46 @@
 //  ViewControllerThree.swift
 //  HackwichThree
 //
-//  Created by Kevin Bechayda on 3/17/18.
+//  Created by Kevin Bechayda on 3/19/18.
 //  Copyright © 2018 Kevin Bechayda. All rights reserved.
 //
 
 import UIKit
 
-class ViewControllerThree: UIViewController {
+class ViewControllerThree: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    let myBucketListArray = ["Retire my parents", "Travel all over the world", "Buy my own home", "Jump out of a plane", "Own a Tesla"]
+    
+    @IBOutlet var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        self.tableView.dataSource = self
+   
     }
 
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 1;
+        
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int) -> Int {
+        
+        return myBucketListArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
+        let text = myBucketListArray[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

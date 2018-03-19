@@ -2,27 +2,27 @@
 //  ViewControllerTwo.swift
 //  HackwichThree
 //
-//  Created by Kevin Bechayda on 2/5/18.
+//  Created by Kevin Bechayda on 3/19/18.
 //  Copyright © 2018 Kevin Bechayda. All rights reserved.
 //
 
 import UIKit
 
 class ViewControllerTwo: UIViewController {
-
+    
     @IBOutlet var fahrenheitTectField: UITextField!
     @IBOutlet var conversionDisplay: UILabel!
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-   
+        
         self.fahrenheitTectField.text = "Enter Degrees Fahrenheit"
         var userText : String!
         userText = self.fahrenheitTectField.text
         self.conversionDisplay.text = userText
-
-    
+   
     }
 
     override func didReceiveMemoryWarning() {
